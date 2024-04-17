@@ -3,31 +3,45 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+	--foreground-rgb: 0, 0, 0;
+	--background-start-rgb: 214, 219, 220;
+	--background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+	:root {
+		--foreground-rgb: 255, 255, 255;
+		--background-start-rgb: 0, 0, 0;
+		--background-end-rgb: 0, 0, 0;
+	}
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+	background-color: rgb(var(--background));
+	color: rgb(var(--text-color));
+}
+
+/* Light Theme */
+.light {
+	--background: 255, 255, 255; /* Example: White background */
+	--text-color: 0, 0, 0; /* Example: Black text */
+	/* Add other variables as needed */
+}
+
+/* Dark Theme */
+.dark {
+	--background: 0, 0, 0; /* Example: Black background */
+	--text-color: 255, 255, 255; /* Example: White text */
+	/* Add other variables as needed */
+}
+
+/* font */
+.roboto {
+	font-family: var(--font-roboto);
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+	.text-balance {
+		text-wrap: balance;
+	}
 }
