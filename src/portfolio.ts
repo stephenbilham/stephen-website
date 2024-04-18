@@ -310,6 +310,14 @@ const projects = [
 	},
 ];
 
+const contactInfo = {
+	title: "Contact Me",
+	subtitle:
+		"I'd love to hear from you! Please feel free to reach out via email or phone.",
+	email_address: "stephenbilham@yahoo.com",
+	number: "+18058076459",
+};
+
 export {
 	svgData,
 	skillsData,
@@ -317,4 +325,5 @@ export {
 	certificates,
 	workExperiences,
 	projects,
+	contactInfo,
 };

@@ -11,7 +11,7 @@ const Section: FC<SectionProps> = ({ theme, children }) => {
 		theme === "dark" ? "bg-customDark text-white" : "bg-white text-gray-900";
 
 	// Add margin-top for 40px gap on top between sections
-	const gapClasses = "mt-20"; // Tailwind class for 40px margin-top
+	const gapClasses = "mt-40"; // Tailwind class for 40px margin-top
 
 	return (
 		<section className={`${sectionClasses} ${gapClasses} px-4 md:px-8`}>

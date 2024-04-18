@@ -35,6 +35,20 @@ const Navbar: FC = () => {
 					</Link>
 				</li>
 				<li>
+					<Link href="#career">
+						<span className="p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700">
+							Career
+						</span>
+					</Link>
+				</li>
+				<li>
+					<Link href="#certifications">
+						<span className="p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700">
+							Education
+						</span>
+					</Link>
+				</li>
+				<li>
 					<Link href="#certifications">
 						<span className="p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700">
 							Certifications
@@ -55,10 +69,8 @@ const Navbar: FC = () => {
 						</span>
 					</Link>
 				</li>
-				<li>
-					<ThemeSwitch />
-				</li>
-			</ul>
+					 <ThemeSwitch />
+ 			</ul>
 		</nav>
 	);
 };

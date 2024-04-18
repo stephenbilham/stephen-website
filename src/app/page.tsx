@@ -9,6 +9,7 @@ import EducationSection from "./sections/Education";
 import CertificatesSection from "./sections/Certificates";
 import CareerSection from "./sections/Career";
 import ProjectSection from "./sections/Projects";
+import ContactSection from "./sections/Contact";
 
 const Home: FC = () => {
 	// Use the useTheme hook to access the current theme
@@ -29,6 +30,7 @@ const Home: FC = () => {
 			<EducationSection theme={theme ?? "light"} />
 			<CertificatesSection theme={theme ?? "light"} />
 			<ProjectSection theme={theme ?? "light"} />
+			<ContactSection theme={theme ?? "light"} />
 		</main>
 	);
 };
