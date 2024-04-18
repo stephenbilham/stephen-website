@@ -220,4 +220,101 @@ const workExperiences = {
 	],
 };
 
-export { svgData, skillsData, educationInfo, certificates, workExperiences };
+const projects = [
+	{
+		title: "E-Commerce Platform",
+		description:
+			"An e-commerce platform built with MERN Stack - initial load takes a while, but it works!",
+		image: "/projects/proshop.png",
+		imageAlt: "E-Commerce Platform",
+		footerLinks: [
+			{
+				name: "View Website",
+				url: "https://proshop-v2-m33h.onrender.com/",
+				disabled: false,
+			},
+			{
+				name: "Source Code",
+				url: "https://github.com/stephenbilham/proshop-v2",
+			},
+		],
+	},
+	{
+		title: "Natour",
+		description: "A landing page built with HTML, CSS, and JavaScript.",
+		image: "/projects/natour.png",
+		imageAlt: "Natour Website",
+		footerLinks: [
+			{
+				name: "View Website",
+				url: "https://stephenbilham.github.io/sb-natour/",
+				disabled: false,
+			},
+			{
+				name: "Source Code",
+				url: "https://github.com/stephenbilham/sb-natour",
+			},
+		],
+	},
+	{
+		title: "Budget App",
+		description: "A budgeting app built with React, Redux, and Firebase.",
+		image: "/projects/budget.png",
+		imageAlt: "Budget App",
+		footerLinks: [
+			{
+				name: "View Website",
+				url: "https://budget-app.mead.io/",
+				disabled: false,
+			},
+			{
+				name: "Source Code",
+				url: "https://github.com/stephenbilham/Financial-budgeting-App",
+			},
+		],
+	},
+	{
+		title: "Movie Screen",
+		description:
+			"A landing page for an interview project for a movie search website.",
+		image: "/projects/movie.png",
+		imageAlt: "Movie Screen",
+		footerLinks: [
+			{
+				name: "View Website",
+				url: "https://charter-coding-challenge-nu.vercel.app/",
+				disabled: false,
+			},
+			{
+				name: "Source Code",
+				url: "https://github.com/stephenbilham/charter-coding-challenge",
+			},
+		],
+	},
+	{
+		title: "Lyrical GraphQL",
+		description: "Using GraphQL to create songs and lyrics.",
+		image: "/projects/lyrical.png",
+		imageAlt: "Lyrical GraphQL",
+		footerLinks: [
+			{
+				name: "View Website",
+				url: "https://lyrical-graphql.netlify.app/",
+				disabled: true,
+			},
+			{
+				name: "Source Code",
+				url: "https://github.com/stephenbilham/lyrical-graphql",
+			},
+		],
+	},
+];
+
+export {
+	svgData,
+	skillsData,
+	educationInfo,
+	certificates,
+	workExperiences,
+	projects,
+};
