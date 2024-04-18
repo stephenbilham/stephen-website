@@ -23,13 +23,17 @@ const EducationCard: FC<EducationCardProps> = ({ school }) => {
 					className="mr-4"
 				/>
 				<div>
-					<h2 className="text-xl font-semibold">{school.name}</h2>
-					<p className="text-gray-600">{school.degree}</p>
-					<p className="text-gray-500">{school.years}</p>
+					<h2 className="text-xl font-semibold montserrat">{school.name}</h2>
+					<p className="text-gray-600 leading-relaxed montserrat">
+						{school.degree}
+					</p>
+					<p className="text-gray-500 leading-relaxed montserrat ">
+						{school.years}
+					</p>
 				</div>
 			</div>
 			{school.description && (
-				<p className="text-gray-700">{school.description}</p>
+				<p className="text-gray-700 montserrat">{school.description}</p>
 			)}
 		</div>
 	);

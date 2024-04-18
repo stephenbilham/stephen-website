@@ -19,7 +19,7 @@ const SkillsSection: FC<{ theme: string }> = ({ theme }) => {
 					<div className="mt-4 grid grid-cols-6 gap-4 mb-10">
 						{svgData.map((svg, i) => (
 							<div key={i} className="flex justify-center items-center px-2">
-								<Image src={svg.path} alt={svg.name} width={72} height={72} />
+								<Image src={svg.path} alt={svg.name} width={60} height={60} />
 							</div>
 						))}
 					</div>

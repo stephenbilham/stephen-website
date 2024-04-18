@@ -45,7 +45,9 @@ const ExperienceCard: FC<ExperienceCardProps> = ({ experience, theme }) => {
 				style={{ backgroundColor: bgColor }} // Use the random background color
 			>
 				{/* Remove unnecessary divs to ensure text centering */}
-				<h5 className="text-xl font-bold text-white">{experience.company}</h5>
+				<h5 className="text-xl font-bold text-white montserrat">
+					{experience.company}
+				</h5>
 			</div>
 			{/* Company logo section */}
 			<div className="flex justify-center">
@@ -57,17 +59,17 @@ const ExperienceCard: FC<ExperienceCardProps> = ({ experience, theme }) => {
 			</div>
 			{/* Details section */}
 			<div className="px-4 py-4 text-center">
-				<h5 className="text-xl font-semibold text-gray-900 dark:text-white">
+				<h5 className="text-xl font-semibold text-gray-900 dark:text-white montserrat">
 					{experience.role}
 				</h5>
-				<h5 className="text-sm text-gray-500 dark:text-gray-400 mb-2">
+				<h5 className="text-sm text-gray-500 dark:text-gray-400 mb-2 leading-relaxed montserrat">
 					{experience.date}
 				</h5>
-				<p className="text-sm text-gray-700 dark:text-gray-300 mb-2">
+				<p className="text-sm text-gray-700 dark:text-gray-300 mb-2 leading-relaxed montserrat">
 					{experience.desc}
 				</p>
 				{experience.descBullets && (
-					<ul className="list-disc list-inside text-sm text-gray-700 dark:text-gray-300">
+					<ul className="list-disc list-inside text-sm text-gray-700 dark:text-gray-300 leading-relaxed montserrat">
 						{experience.descBullets.map((bullet, index) => (
 							<li key={index}>{bullet}</li>
 						))}

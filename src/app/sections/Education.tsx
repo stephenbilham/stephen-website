@@ -8,7 +8,9 @@ const EducationSection: FC<{ theme: string }> = ({ theme }) => {
 		<Section theme={theme}>
 			{/* <div className="max-w-[1200px] mx-auto w-full"> */}
 			<div>
-				<h1 className="text-3xl font-bold mb-4 text-left">Education</h1>
+				<h1 className="text-3xl font-bold mb-4 text-left montserrat">
+					Education
+				</h1>
 				{/* Container for EducationCards */}
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
 					{educationInfo.schools.map((school, index) => (

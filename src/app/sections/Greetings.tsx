@@ -15,12 +15,13 @@ const GreetingSection: FC<{ theme: string }> = ({ theme }) => {
 				<div className="md:w-1/2 w-full text-center md:text-left montserrat">
 					<h1 className="text-3xl font-bold mb-4">Hi, I'm Stephen!</h1>
 					<h3 className="text-lg leading-relaxed montserrat">
-						I'm thrilled to share my journey and work as a passionate software
-						developer. This site is a personal challenge for me to explore and
-						learn new technologies like the modern React framework Next.js and
-						utility-first CSS framework Tailwind CSS. I'm excited to showcase my
-						skills, projects, and love for building innovative and efficient
-						solutions. Enjoy exploring!
+						Welcome! This website was built using Next.js and Tailwind, both new
+						technologies for me that I've come to enjoy. It demonstrates my
+						ability to learn and apply new tools independently without relying
+						on guides or cloning repositories. Through this project, I aim to
+						showcase my skills and creativity, as well as highlight my past
+						projects, education, and career experiences. I'm excited to share
+						this self-made project with you.
 					</h3>
 					{/* CV */}
 					<div className="mt-4 flex justify-center md:justify-start">

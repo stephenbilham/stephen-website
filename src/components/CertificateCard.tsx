@@ -31,12 +31,15 @@ const CertificateCard: FC<CertificateCardProps> = ({ certificate, theme }) => {
 					className="mb-4"
 				/>
 				<h3
-					className={`text-xl font-semibold ${
+					className={`text-xl font-semibold montserrat ${
 						isDark ? "text-white" : "text-gray-900"
 					}`}>
 					{certificate.title}
 				</h3>
-				<p className={`text-gray-600 ${isDark ? "text-gray-400" : ""}`}>
+				<p
+					className={`text-gray-600 leading-relaxed montserrat ${
+						isDark ? "text-gray-400" : ""
+					}`}>
 					{certificate.description}
 				</p>
 			</div>

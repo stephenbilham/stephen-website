@@ -16,10 +16,6 @@
 	}
 }
 
-main {
-	margin: 72px;
-}
-
 body {
 	background-color: rgb(var(--background));
 	color: rgb(var(--text-color));
@@ -31,16 +27,14 @@ html {
 
 /* Light Theme */
 .light {
-	--background: 255, 255, 255; /* Example: White background */
-	--text-color: 0, 0, 0; /* Example: Black text */
-	/* Add other variables as needed */
+	--background: 255, 255, 255;
+	--text-color: 0, 0, 0;
 }
 
 /* Dark Theme */
 .dark {
-	--background: 0, 0, 0; /* Example: Black background */
-	--text-color: 255, 255, 255; /* Example: White text */
-	/* Add other variables as needed */
+	--background: 0, 0, 0;
+	--text-color: 255, 255, 255;
 }
 
 /* font */

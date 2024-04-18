@@ -9,7 +9,9 @@ const CertificatesSection: FC<{ theme: string }> = ({ theme }) => {
 	return (
 		<Section theme={theme}>
 			<div>
-				<h1 className="text-3xl font-bold mb-4 text-left" id="certifications">
+				<h1
+					className="text-3xl font-bold mb-4 text-left montserrat"
+					id="certifications">
 					Certifications
 				</h1>
 				<div className="grid grid-cols-1 md:grid-cols-4 gap-4">

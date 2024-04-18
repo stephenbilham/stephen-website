@@ -23,7 +23,7 @@ const Home: FC = () => {
 		<main
 			className={`flex flex-col ${backgroundColor}`}
 			style={{ minHeight: "100vh" }}>
-			<Navbar />
+			<Navbar theme={theme ?? "light"} />
 			<GreetingSection theme={theme ?? "light"} />
 			<SkillsSection theme={theme ?? "light"} />
 			<CareerSection theme={theme ?? "light"} />

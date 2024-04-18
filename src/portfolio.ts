@@ -96,7 +96,7 @@ const svgData = [
 
 const skillsData = {
 	title: "What I do",
-	description: `I enjoy learning and pushing the boundaries of technology!`,
+	description: `I enjoy learning and pushing the boundaries of technology! Here are some of the tech stacks I've encountered and utilized throughout my 4+ years in the tech industry.`,
 	listElements: [
 		`⚡ Develop highly interactive front-end / user interfaces for your web and mobile applications.`,
 		`⚡ Progressive web applications (PWAs) in normal and SPA stacks.`,
@@ -109,7 +109,7 @@ const educationInfo = {
 	schools: [
 		{
 			name: "University of California, San Diego",
-			logoPath: "/svg/ucsd-logo.png",
+			logoPath: "/educationLogo/ucsd-logo.png",
 			degree: "Master of Science in Computer Science",
 			years: "September 2017 - April 2019",
 			description:
@@ -121,7 +121,7 @@ const educationInfo = {
 		},
 		{
 			name: "Learn Academy",
-			logoPath: "/svg/ucsd-logo.png",
+			logoPath: "/educationLogo/learn.png",
 			degree: "Full Stack Web Developer Certification",
 			years: "October - December 2019",
 			description:
@@ -190,15 +190,16 @@ const certificates = [
 	},
 ];
 
+// CAREER
 const workExperiences = {
 	display: true,
 	experience: [
 		{
-			company: "Company A",
+			company: "CompanyA",
 			role: "Software Engineer",
 			date: "Jan 2021 - Present",
 			desc: "Worked on several projects, including designing and implementing new features.",
-			companyLogo: "",
+			companyLogo: "/companyLogo/companya.png",
 			descBullets: [
 				"Led a team of 5 engineers to develop a new product",
 				"Implemented advanced features using React and Node.js",
@@ -206,11 +207,11 @@ const workExperiences = {
 			],
 		},
 		{
-			company: "Company B",
-			role: "Full Stack Developer",
-			date: "Jun 2019 - Dec 2020",
-			desc: "Developed web applications with a focus on performance and user experience.",
-			companyLogo: "",
+			company: "Westgate Resorts",
+			role: "Frontend Engineer and Design Intern",
+			date: "June 2020 – August 2020",
+			desc: "Employed automation tools for efficient deployment and management of email campaigns, ensuring timely client communication.",
+			companyLogo: "/companyLogo/westgate.png",
 			descBullets: [
 				"Improved application speed by 30%",
 				"Collaborated with design team to create an intuitive UI",
