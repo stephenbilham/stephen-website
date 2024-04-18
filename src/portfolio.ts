@@ -189,4 +189,35 @@ const certificates = [
 		],
 	},
 ];
-export { svgData, skillsData, educationInfo, certificates };
+
+const workExperiences = {
+	display: true,
+	experience: [
+		{
+			company: "Company A",
+			role: "Software Engineer",
+			date: "Jan 2021 - Present",
+			desc: "Worked on several projects, including designing and implementing new features.",
+			companyLogo: "",
+			descBullets: [
+				"Led a team of 5 engineers to develop a new product",
+				"Implemented advanced features using React and Node.js",
+				"Reduced project completion time by 20%",
+			],
+		},
+		{
+			company: "Company B",
+			role: "Full Stack Developer",
+			date: "Jun 2019 - Dec 2020",
+			desc: "Developed web applications with a focus on performance and user experience.",
+			companyLogo: "",
+			descBullets: [
+				"Improved application speed by 30%",
+				"Collaborated with design team to create an intuitive UI",
+				"Developed APIs for mobile and web applications",
+			],
+		},
+	],
+};
+
+export { svgData, skillsData, educationInfo, certificates, workExperiences };

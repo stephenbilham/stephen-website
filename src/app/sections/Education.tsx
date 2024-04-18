@@ -10,7 +10,7 @@ const EducationSection: FC<{ theme: string }> = ({ theme }) => {
 			<div>
 				<h1 className="text-3xl font-bold mb-4 text-left">Education</h1>
 				{/* Container for EducationCards */}
-				<div className="grid grid-cols-1 md:grid-cols-1 gap-4 w-full">
+				<div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
 					{educationInfo.schools.map((school, index) => (
 						<EducationCard key={index} school={school} />
 					))}

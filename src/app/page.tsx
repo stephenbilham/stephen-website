@@ -7,6 +7,7 @@ import GreetingSection from "./sections/Greetings";
 import SkillsSection from "./sections/Skills"; // Import other sections as needed
 import EducationSection from "./sections/Education";
 import CertificatesSection from "./sections/Certificates";
+import CareerSection from "./sections/Career";
 
 const Home: FC = () => {
 	// Use the useTheme hook to access the current theme
@@ -23,6 +24,7 @@ const Home: FC = () => {
 			<Navbar />
 			<GreetingSection theme={theme ?? "light"} />
 			<SkillsSection theme={theme ?? "light"} />
+			<CareerSection theme={theme ?? "light"} />
 			<EducationSection theme={theme ?? "light"} />
 			<CertificatesSection theme={theme ?? "light"} />
 		</main>
