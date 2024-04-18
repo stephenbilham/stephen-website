@@ -1,12 +1,12 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import ThemeProvider from "./provider";
 
-const roboto_init = Roboto({
+const Montserrat_init = Montserrat({
 	subsets: ["latin"],
 	weight: ["300", "400", "700"],
-	variable: "--font-roboto",
+	variable: "--font-montserrat",
 });
 
 export const metadata: Metadata = {
@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body className={roboto_init.variable}>
+			<body className={Montserrat_init.variable}>
 				<ThemeProvider attribute="class" defaultTheme="system" enableSystem>
 					{children}
 				</ThemeProvider>

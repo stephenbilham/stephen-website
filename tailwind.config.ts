@@ -16,10 +16,10 @@ const config: Config = {
 				sans: ["Montserrat", "sans-serif"],
 			},
 			height: {
-				"25p": "25vh", // 25% of screen height
-				"50p": "50vh", // 50% of screen height
-				"75p": "75vh", // 75% of screen height
-				"100p": "100vh", // 100% of screen height
+				"25p": "25vh",
+				"50p": "50vh",
+				"75p": "75vh",
+				"100p": "100vh",
 			},
 		},
 	},

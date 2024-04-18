@@ -1,5 +1,3 @@
-"use client"; // Add this line to mark the file as a client component
-
 import Link from "next/link";
 import { FC, useState } from "react";
 import ThemeSwitch from "./ThemeSwitch";
@@ -15,7 +13,7 @@ const Navbar: FC = () => {
 
 	return (
 		<nav className="h-16 border-gray-200 flex justify-between items-center px-4">
-			<h1 className="font-bold">My App</h1>
+			<h1 className="font-bold">Portfolio</h1>
 
 			{/* Menu toggle button for smaller screens */}
 			<button
@@ -28,30 +26,30 @@ const Navbar: FC = () => {
 			<ul
 				className={`${
 					isMenuOpen ? "block" : "hidden"
-				} md:flex flex-col md:flex-row md:space-x-4 items-center md:static absolute top-16 left-0 w-full md:w-auto bg-white dark:bg-customDark md:bg-transparent z-10`}>
+				} md:flex flex-col md:flex-row md:space-x-4 items-center md:static absolute top-16 left-0 w-full md:w-auto bg-white dark:bg-customDark md:bg-transparent z-10 montserrat text-lg`}>
 				<li>
-					<Link href="/">
+					<Link href="#skills">
 						<span className="p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700">
 							Skills
 						</span>
 					</Link>
 				</li>
 				<li>
-					<Link href="/Certificates">
+					<Link href="#certifications">
 						<span className="p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700">
-							Certificates
+							Certifications
 						</span>
 					</Link>
 				</li>
 				<li>
-					<Link href="/projects">
+					<Link href="#projects">
 						<span className="p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700">
 							Projects
 						</span>
 					</Link>
 				</li>
 				<li>
-					<Link href="/contact">
+					<Link href="#contact">
 						<span className="p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700">
 							Contact
 						</span>

@@ -6,6 +6,7 @@ type ReadOnlyAvatarProps = Readonly<{
 	alt: string;
 	width?: number;
 	height?: number;
+	className?: string;
 }>;
 
 export function Avatar({
@@ -13,6 +14,7 @@ export function Avatar({
 	alt,
 	width = 200,
 	height = 200,
+	className,
 }: ReadOnlyAvatarProps) {
 	return (
 		<Image
@@ -20,7 +22,7 @@ export function Avatar({
 			alt={alt}
 			width={width}
 			height={height}
-			className="rounded-full"
+			className={className}
 		/>
 	);
 }

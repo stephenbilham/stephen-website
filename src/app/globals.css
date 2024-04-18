@@ -16,9 +16,17 @@
 	}
 }
 
+main {
+	margin: 72px;
+}
+
 body {
 	background-color: rgb(var(--background));
 	color: rgb(var(--text-color));
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 /* Light Theme */
@@ -36,8 +44,8 @@ body {
 }
 
 /* font */
-.roboto {
-	font-family: var(--font-roboto);
+.montserrat {
+	font-family: var(--font-montserrat);
 }
 
 @layer utilities {
