@@ -8,9 +8,10 @@ interface Project {
 	footerLinks: {
 		name: string;
 		url: string;
-		disabled: boolean;
+		disabled?: boolean;
 	}[];
 }
+
 interface ProjectCardProps {
 	project: Project;
 	theme: string;
