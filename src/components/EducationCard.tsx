@@ -9,6 +9,7 @@ interface EducationCardProps {
 		years: string;
 		description?: string;
 	};
+	theme: string;
 }
 
 const EducationCard: FC<EducationCardProps> = ({ school }) => {
