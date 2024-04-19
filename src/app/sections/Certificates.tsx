@@ -1,6 +1,6 @@
 import React, { FC } from "react";
-import Section from "../../components/Section";
-import CertificateCard from "../../components/CertificateCard";
+import Section from "../../app/components/Section";
+import CertificateCard from "../../app/components/CertificateCard";
 import { certificates } from "../../../src/portfolio";
 
 const CertificatesSection: FC<{ theme: string }> = ({ theme }) => {

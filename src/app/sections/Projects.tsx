@@ -1,6 +1,6 @@
 import React, { FC } from "react";
-import Section from "../../components/Section";
-import ProjectCard from "../../components/ProjectCard";
+import Section from "../../app/components/Section";
+import ProjectCard from "../../app/components/ProjectCard";
 import { projects } from "../../portfolio";
 
 const ProjectsSection: FC<{ theme: string }> = ({ theme }) => {

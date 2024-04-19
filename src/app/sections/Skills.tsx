@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import Section from "../../components/Section";
+import Section from "../../app/components/Section";
 import { svgData, skillsData } from "../../portfolio";
 import Image from "next/image";
 import workImg from "../../../public/work-removebg.png";

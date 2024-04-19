@@ -1,10 +1,10 @@
 import React, { FC } from "react";
-import { Avatar } from "../../components/Avatar";
+import { Avatar } from "../../app/components/Avatar";
 import avatar from "../../../public/me.jpg";
 import Image from "next/image";
 import githubIcon from "../../../public/svg/github.svg";
 import linkedinIcon from "../../../public/svg/linkedin.svg";
-import Section from "../../components/Section";
+import Section from "../../app/components/Section";
 import cvImage from "../../../public/cv-photo.png";
 
 const GreetingSection: FC<{ theme: string }> = ({ theme }) => {
@@ -26,7 +26,7 @@ const GreetingSection: FC<{ theme: string }> = ({ theme }) => {
 					{/* CV */}
 					<div className="mt-4 flex justify-center md:justify-start">
 						<a
-							href="/Stephen_CV.pdf"
+							href="/cv/Stephen_Bilham_Resume.pdf"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="flex items-center space-x-2 dark:bg-gray-700 rounded-lg">

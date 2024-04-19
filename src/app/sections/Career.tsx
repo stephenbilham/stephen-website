@@ -1,6 +1,6 @@
 import React, { FC } from "react";
-import Section from "../../components/Section";
-import ExperienceCard from "../../components/ExperienceCard";
+import Section from "../../app/components/Section";
+import ExperienceCard from "../../app/components/ExperienceCard";
 import { workExperiences } from "../../../src/portfolio";
 
 const CareerSection: FC<{ theme: string }> = ({ theme }) => {

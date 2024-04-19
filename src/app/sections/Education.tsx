@@ -1,6 +1,6 @@
 import React, { FC } from "react";
-import Section from "../../components/Section";
-import EducationCard from "../../components/EducationCard";
+import Section from "../../app/components/Section";
+import EducationCard from "../../app/components/EducationCard";
 import { educationInfo } from "../../../src/portfolio";
 
 const EducationSection: FC<{ theme: string }> = ({ theme }) => {

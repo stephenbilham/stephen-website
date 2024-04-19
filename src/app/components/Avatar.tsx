@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from "next/image";
-import avatar from "../../public/me.jpg";
+import avatar from "../../../public/me.jpg";
 
 type ReadOnlyAvatarProps = Readonly<{
 	src: StaticImageData;

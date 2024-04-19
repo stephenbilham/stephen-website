@@ -1,6 +1,6 @@
 "use client";
 
-import Navbar from "../components/Navbar";
+import Navbar from "../app/components/Navbar";
 import { useTheme } from "next-themes";
 import { FC } from "react";
 import GreetingSection from "./sections/Greetings";
