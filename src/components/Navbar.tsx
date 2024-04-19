@@ -3,7 +3,7 @@ import { FC, useState } from "react";
 import ThemeSwitch from "./ThemeSwitch";
 
 interface NavbarProps {
-    theme: string; // Add theme prop to the interface
+	theme: string; // Add theme prop to the interface
 }
 
 const Navbar: FC<NavbarProps> = ({ theme }) => {
@@ -39,47 +39,66 @@ const Navbar: FC<NavbarProps> = ({ theme }) => {
 				} md:flex flex-col md:flex-row md:space-x-4 items-center md:static absolute top-16 left-0 w-full md:w-auto bg-white dark:bg-customDark md:bg-transparent z-10 montserrat text-lg`}>
 				<li>
 					<Link href="#skills">
-						<span className={`p-2 rounded hover:bg-gray-100 ${isDark ? "dark:hover:bg-gray-700" : "hover:bg-gray-100"}`}>
+						<span
+							className={`p-2 rounded hover:bg-gray-100 ${
+								isDark ? "dark:hover:bg-gray-700" : "hover:bg-gray-100"
+							}`}>
 							Skills
 						</span>
 					</Link>
 				</li>
 				<li>
 					<Link href="#career">
-						<span className={`p-2 rounded hover:bg-gray-100 ${isDark ? "dark:hover:bg-gray-700" : "hover:bg-gray-100"}`}>
+						<span
+							className={`p-2 rounded hover:bg-gray-100 ${
+								isDark ? "dark:hover:bg-gray-700" : "hover:bg-gray-100"
+							}`}>
 							Career
 						</span>
 					</Link>
 				</li>
 				<li>
 					<Link href="#education">
-						<span className={`p-2 rounded hover:bg-gray-100 ${isDark ? "dark:hover:bg-gray-700" : "hover:bg-gray-100"}`}>
+						<span
+							className={`p-2 rounded hover:bg-gray-100 ${
+								isDark ? "dark:hover:bg-gray-700" : "hover:bg-gray-100"
+							}`}>
 							Education
 						</span>
 					</Link>
 				</li>
 				<li>
 					<Link href="#certifications">
-						<span className={`p-2 rounded hover:bg-gray-100 ${isDark ? "dark:hover:bg-gray-700" : "hover:bg-gray-100"}`}>
+						<span
+							className={`p-2 rounded hover:bg-gray-100 ${
+								isDark ? "dark:hover:bg-gray-700" : "hover:bg-gray-100"
+							}`}>
 							Certifications
 						</span>
 					</Link>
 				</li>
 				<li>
 					<Link href="#projects">
-						<span className={`p-2 rounded hover:bg-gray-100 ${isDark ? "dark:hover:bg-gray-700" : "hover:bg-gray-100"}`}>
+						<span
+							className={`p-2 rounded hover:bg-gray-100 ${
+								isDark ? "dark:hover:bg-gray-700" : "hover:bg-gray-100"
+							}`}>
 							Projects
 						</span>
 					</Link>
 				</li>
 				<li>
 					<Link href="#contact">
-						<span className={`p-2 rounded hover:bg-gray-100 ${isDark ? "dark:hover:bg-gray-700" : "hover:bg-gray-100"}`}>
+						<span
+							className={`p-2 rounded hover:bg-gray-100 ${
+								isDark ? "dark:hover:bg-gray-700" : "hover:bg-gray-100"
+							}`}>
 							Contact
 						</span>
 					</Link>
 				</li>
-				<ThemeSwitch theme={theme} /> {/* Pass the theme prop to ThemeSwitch for theme switching */}
+				<ThemeSwitch theme={theme} />{" "}
+				{/* Pass the theme prop to ThemeSwitch for theme switching */}
 			</ul>
 		</nav>
 	);

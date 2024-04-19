@@ -6,7 +6,7 @@ const Contact: React.FC<{ theme: string }> = ({ theme }) => {
 
 	return (
 		<section
-			className={`container mx-auto py-8 mt-30 ${
+			className={`container mx-auto py-8 mt-20 ${
 				isDark ? "bg-gray-800 text-white" : "bg-white text-gray-900"
 			}`}
 			id="contact">

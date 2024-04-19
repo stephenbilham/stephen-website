@@ -21,21 +21,29 @@ const CertificateCard: FC<CertificateCardProps> = ({ certificate, theme }) => {
 		<div
 			className={`p-4 bg-white rounded-lg shadow-md ${
 				isDark ? "dark:bg-gray-800" : ""
-			}`}>
-			<div className="flex flex-col items-center mb-4">
-				<Image
-					src={certificate.image}
-					alt={certificate.imageAlt}
-					width={400}
-					height={400}
-					className="mb-4"
-				/>
+			} hover:shadow-lg`} // Add hover shadow effect
+		>
+			<div className="flex flex-col mb-4">
+				{/* Image Section */}
+				<div className="mb-4">
+					<Image
+						src={certificate.image}
+						alt={certificate.imageAlt}
+						width={400}
+						height={400}
+						className="mb-4"
+					/>
+				</div>
+
+				{/* Title */}
 				<h3
 					className={`text-xl font-semibold montserrat ${
 						isDark ? "text-white" : "text-gray-900"
 					}`}>
 					{certificate.title}
 				</h3>
+
+				{/* Description */}
 				<p
 					className={`text-gray-600 leading-relaxed montserrat ${
 						isDark ? "text-gray-400" : ""
@@ -43,6 +51,8 @@ const CertificateCard: FC<CertificateCardProps> = ({ certificate, theme }) => {
 					{certificate.description}
 				</p>
 			</div>
+
+			{/* Footer Links */}
 			<div className="flex space-x-2 mt-4">
 				{certificate.footerLinks.map((link, index) => (
 					<a

@@ -215,7 +215,7 @@ const certificates = [
 		],
 	},
 	{
-		title: "React (w/ Hooks and Redux) Certification",
+		title: "Complete React Certification",
 		description:
 			"Learn how to build and launch React web applications using React, Redux, Webpack, React-Router, and more!",
 		image: "/certifcates/react-redux-certificate.png",
@@ -228,7 +228,7 @@ const certificates = [
 		],
 	},
 	{
-		title: "Advanced CSS and Sass: Flexbox, Grid, Animation Certification",
+		title: "Advanced Sass Certification",
 		description:
 			"The most advanced and modern CSS course on the internet: master flexbox, CSS Grid, responsive design, and so much more!",
 		image: "/certifcates/sass-certificate.png",

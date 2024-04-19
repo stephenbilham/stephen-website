@@ -15,6 +15,7 @@ interface ExperienceCardProps {
 }
 
 const ExperienceCard: FC<ExperienceCardProps> = ({ experience, theme }) => {
+	// State to store the random dark background color
 	const [bgColor, setBgColor] = useState("");
 
 	// List of darker, most commonly used company colors
@@ -41,6 +42,7 @@ const ExperienceCard: FC<ExperienceCardProps> = ({ experience, theme }) => {
 	useEffect(() => {
 		setBgColor(generateDarkCompanyColor());
 	}, []);
+
 	return (
 		<div
 			className={`p-4 rounded-lg border ${

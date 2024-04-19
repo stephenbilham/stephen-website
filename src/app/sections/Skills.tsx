@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import Section from "../../components/Section";
 import { svgData, skillsData } from "../../portfolio";
 import Image from "next/image";
-import workImg from "../../../public/work.png";
+import workImg from "../../../public/work-removebg.png";
 import svgList from "../../../public/svg-list.png";
 
 const SkillsSection: FC<{ theme: string }> = ({ theme }) => {
@@ -28,12 +28,13 @@ const SkillsSection: FC<{ theme: string }> = ({ theme }) => {
 
 					{/* Render SVGs dynamically from svgData */}
 					{/* <div className="mt-12 mb-12 grid grid-cols-6 gap-1">
-                        {svgData.map((svg, i) => (
-                            <div key={i} className="flex justify-center items-center px-2">
-                                <Image src={svg.path} alt={svg.name} width={50} height={50} />
-                            </div>
-                        ))}
-                    </div> */}
+						{svgData.map((svg, i) => (
+							<div key={i} className="flex justify-center items-center px-2">
+								<Image src={svg.path} alt={svg.name} width={72} height={72} />
+							</div>
+						))}
+					</div> */}
+
 					<div className="mt-12 mb-12">
 						<Image
 							src={svgList}
@@ -45,7 +46,6 @@ const SkillsSection: FC<{ theme: string }> = ({ theme }) => {
 					</div>
 
 					<div>
-						{/* <h3 className="text-2xl font-bold mb-4 montserrat">What I offer</h3> */}
 						{listElements.map((element, i) => (
 							<ul key={i} className="text-lg leading-relaxed montserrat">
 								<li>{element}</li>

@@ -1,7 +1,5 @@
 import React, { FC } from "react";
 import Image from "next/image";
-
-// Define the Project interface
 interface Project {
 	title: string;
 	description: string;
@@ -13,8 +11,6 @@ interface Project {
 		disabled: boolean;
 	}[];
 }
-
-// Define the ProjectCardProps interface
 interface ProjectCardProps {
 	project: Project;
 	theme: string;
@@ -26,8 +22,8 @@ const ProjectCard: FC<ProjectCardProps> = ({ project, theme }) => {
 
 	return (
 		<div
-			className={`p-4 bg-white rounded-lg shadow-md ${
-				isDark ? "dark:bg-gray-800" : ""
+			className={`p-4 rounded-lg shadow-lg hover:shadow-xl ${
+				isDark ? "dark:bg-gray-800" : "bg-white"
 			}`}>
 			<div className="flex flex-col items-center mb-4">
 				<Image
@@ -35,7 +31,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ project, theme }) => {
 					alt={project.imageAlt}
 					width={400}
 					height={400}
-					className="mb-4 object-cover"
+					className="mb-4 shadow-md object-cover"
 				/>
 				<h3
 					className={`text-xl font-semibold montserrat ${
