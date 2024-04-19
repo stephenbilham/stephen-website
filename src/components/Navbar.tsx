@@ -97,8 +97,7 @@ const Navbar: FC<NavbarProps> = ({ theme }) => {
 						</span>
 					</Link>
 				</li>
-				<ThemeSwitch theme={theme} />{" "}
-				{/* Pass the theme prop to ThemeSwitch for theme switching */}
+				<ThemeSwitch />
 			</ul>
 		</nav>
 	);
