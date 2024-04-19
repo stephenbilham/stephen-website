@@ -192,7 +192,7 @@ const certificates = [
 		title: "Full Stack Developer Certification",
 		description:
 			"Build an eCommerce platform from the ground up with React, Redux Toolkit, Express & MongoDB",
-		image: "/certifcates/mern-stack-certificate.png",
+		image: "/certificates/mern-stack-certificate.png",
 		imageAlt: "Full Stack Developer Certification Image",
 		footerLinks: [
 			{
@@ -205,7 +205,7 @@ const certificates = [
 		title: "GraphQL With React Certification",
 		description:
 			"Received a certification after completing a course on GraphQL with React. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		image: "/certifcates/graphql-certificate.png",
+		image: "/certificates/graphql-certificate.png",
 		imageAlt: "GraphQL With React Certification Image",
 		footerLinks: [
 			{
@@ -218,7 +218,7 @@ const certificates = [
 		title: "Complete React Certification",
 		description:
 			"Learn how to build and launch React web applications using React, Redux, Webpack, React-Router, and more!",
-		image: "/certifcates/react-redux-certificate.png",
+		image: "/certificates/react-redux-certificate.png",
 		imageAlt: "React (w/ Hooks and Redux) Certification Image",
 		footerLinks: [
 			{
@@ -231,7 +231,7 @@ const certificates = [
 		title: "Advanced Sass Certification",
 		description:
 			"The most advanced and modern CSS course on the internet: master flexbox, CSS Grid, responsive design, and so much more!",
-		image: "/certifcates/sass-certificate.png",
+		image: "/certificates/sass-certificate.png",
 		imageAlt:
 			"Advanced CSS and Sass: Flexbox, Grid, Animation Certification Image",
 		footerLinks: [
