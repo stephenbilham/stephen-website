@@ -98,10 +98,65 @@ const skillsData = {
 	title: "What I do",
 	description: `I enjoy learning and pushing the boundaries of technology! Here are some of the tech stacks I've encountered and utilized throughout my 4+ years in the tech industry.`,
 	listElements: [
-		`⚡ Develop highly interactive front-end / user interfaces for your web and mobile applications.`,
-		`⚡ Progressive web applications (PWAs) in normal and SPA stacks.`,
-		`⚡ Integration of third-party services such as Firebase, AWS, and Digital Ocean.`,
+		`◦ Develop highly interactive front-end / user interfaces.`,
+		`◦ Build and maintain efficient, scalable APIs.`,
+		`◦ Collaborate effectively with cross-functional teams.`,
 	],
+	softwareSkills: [
+		{
+			skillName: "html-5",
+			fontAwesomeClassname: "fab fa-html5",
+		},
+		{
+			skillName: "css3",
+			fontAwesomeClassname: "fab fa-css3-alt",
+		},
+		{
+			skillName: "sass",
+			fontAwesomeClassname: "fab fa-sass",
+		},
+		{
+			skillName: "JavaScript",
+			fontAwesomeClassname: "fab fa-js",
+		},
+		{
+			skillName: "reactjs",
+			fontAwesomeClassname: "fab fa-react",
+		},
+		{
+			skillName: "nodejs",
+			fontAwesomeClassname: "fab fa-node",
+		},
+		{
+			skillName: "swift",
+			fontAwesomeClassname: "fab fa-swift",
+		},
+		{
+			skillName: "npm",
+			fontAwesomeClassname: "fab fa-npm",
+		},
+		{
+			skillName: "sql-database",
+			fontAwesomeClassname: "fas fa-database",
+		},
+		{
+			skillName: "aws",
+			fontAwesomeClassname: "fab fa-aws",
+		},
+		{
+			skillName: "firebase",
+			fontAwesomeClassname: "fas fa-fire",
+		},
+		{
+			skillName: "python",
+			fontAwesomeClassname: "fab fa-python",
+		},
+		{
+			skillName: "docker",
+			fontAwesomeClassname: "fab fa-docker",
+		},
+	],
+	display: true,
 };
 
 // EDUCATION
@@ -110,10 +165,9 @@ const educationInfo = {
 		{
 			name: "University of California, San Diego",
 			logoPath: "/educationLogo/ucsd-logo.png",
-			degree: "Master of Science in Computer Science",
+			degree: "Bachelor of Arts, Communication and minor in Business",
 			years: "September 2017 - April 2019",
-			description:
-				"Participated in the research of XXX and published 3 papers.",
+			description: "",
 			descriptionBullets: [
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -124,8 +178,7 @@ const educationInfo = {
 			logoPath: "/educationLogo/learn.png",
 			degree: "Full Stack Web Developer Certification",
 			years: "October - December 2019",
-			description:
-				"Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, etc.",
+			description: "",
 			descriptionBullets: [
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 			],
@@ -197,13 +250,13 @@ const workExperiences = {
 		{
 			company: "CompanyA",
 			role: "Software Engineer",
-			date: "Jan 2021 - Present",
+			date: "November 2020 – December 2023",
 			desc: "Worked on several projects, including designing and implementing new features.",
 			companyLogo: "/companyLogo/companya.png",
 			descBullets: [
-				"Led a team of 5 engineers to develop a new product",
+				"Contributed to the Software Development Life Cycle (SDLC)",
 				"Implemented advanced features using React and Node.js",
-				"Reduced project completion time by 20%",
+				"Worked in an collaberative Agile work environment",
 			],
 		},
 		{
@@ -212,8 +265,15 @@ const workExperiences = {
 			date: "June 2020 – August 2020",
 			desc: "Employed automation tools for efficient deployment and management of email campaigns, ensuring timely client communication.",
 			companyLogo: "/companyLogo/westgate.png",
+			descBullets: ["Created Figma designs", "Employed automation tools"],
+		},
+		{
+			company: "Zeal Tech Consultancy",
+			role: "Software Engineer Intern",
+			date: "January 2020 – February 2020",
+			desc: "Developed GraphQL endpoints for selected data fields, customizing queries and mutations to import and modify specific information into the client browser.",
+			companyLogo: "/companyLogo/zeal.png",
 			descBullets: [
-				"Improved application speed by 30%",
 				"Collaborated with design team to create an intuitive UI",
 				"Developed APIs for mobile and web applications",
 			],

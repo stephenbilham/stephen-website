@@ -17,21 +17,30 @@ interface ExperienceCardProps {
 const ExperienceCard: FC<ExperienceCardProps> = ({ experience, theme }) => {
 	const [bgColor, setBgColor] = useState("");
 
-	// Function to generate a random color
-	const generateRandomColor = () => {
-		const letters = "0123456789ABCDEF";
-		let color = "#";
-		for (let i = 0; i < 6; i++) {
-			color += letters[Math.floor(Math.random() * 16)];
-		}
-		return color;
+	// List of darker, most commonly used company colors
+	const darkCompanyColors = [
+		"#003366", // Dark blue
+		"#004080", // Navy blue
+		"#006400", // Dark green
+		"#8B0000", // Dark red
+		"#4B0082", // Indigo
+		"#3B0B17", // Deep maroon
+		"#2F4F4F", // Dark slate gray
+		"#483D8B", // Dark slate blue
+		"#556B2F", // Dark olive green
+		"#800000", // Dark brown
+	];
+
+	// Function to generate a random index to select a color from the dark company colors list
+	const generateDarkCompanyColor = () => {
+		const randomIndex = Math.floor(Math.random() * darkCompanyColors.length);
+		return darkCompanyColors[randomIndex];
 	};
 
-	// Generate a random color when the component mounts
+	// Generate a random dark company color when the component mounts
 	useEffect(() => {
-		setBgColor(generateRandomColor());
+		setBgColor(generateDarkCompanyColor());
 	}, []);
-
 	return (
 		<div
 			className={`p-4 rounded-lg border ${
@@ -44,7 +53,6 @@ const ExperienceCard: FC<ExperienceCardProps> = ({ experience, theme }) => {
 				className="h-44 rounded-t-lg flex items-center justify-center"
 				style={{ backgroundColor: bgColor }} // Use the random background color
 			>
-				{/* Remove unnecessary divs to ensure text centering */}
 				<h5 className="text-xl font-bold text-white montserrat">
 					{experience.company}
 				</h5>

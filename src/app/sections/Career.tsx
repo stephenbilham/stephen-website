@@ -14,7 +14,7 @@ const CareerSection: FC<{ theme: string }> = ({ theme }) => {
 					id="career">
 					Career
 				</h1>
-				<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+				<div className="grid grid-cols-1 md:grid-cols-3 gap-4">
 					{workExperiences.experience.map((experience, index) => (
 						<ExperienceCard key={index} experience={experience} theme={theme} />
 					))}

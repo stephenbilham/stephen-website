@@ -33,11 +33,11 @@ const GreetingSection: FC<{ theme: string }> = ({ theme }) => {
 							<Image src={cvIcon} alt="CV" width={62} height={62} />
 						</a>
 						{/* Contact Button */}
-						{/* <a
+						<a
 							href="/contact"
 							className="ml-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400">
 							Contact
-						</a> */}
+						</a>
 					</div>
 				</div>
 
@@ -60,8 +60,8 @@ const GreetingSection: FC<{ theme: string }> = ({ theme }) => {
 							<Image
 								src={githubIcon}
 								alt="GitHub"
-								width={24}
-								height={24}
+								width={28}
+								height={28}
 								className="transition-transform duration-300 hover:scale-110"
 							/>
 						</a>
@@ -74,8 +74,8 @@ const GreetingSection: FC<{ theme: string }> = ({ theme }) => {
 							<Image
 								src={linkedinIcon}
 								alt="LinkedIn"
-								width={24}
-								height={24}
+								width={28}
+								height={28}
 								className="transition-transform duration-300 hover:scale-110"
 							/>
 						</a>

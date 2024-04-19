@@ -35,7 +35,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ project, theme }) => {
 					alt={project.imageAlt}
 					width={400}
 					height={400}
-					className="mb-4"
+					className="mb-4 object-cover"
 				/>
 				<h3
 					className={`text-xl font-semibold montserrat ${
