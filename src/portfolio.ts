@@ -204,7 +204,7 @@ const certificates = [
 	{
 		title: "GraphQL With React Certification",
 		description:
-			"Received a certification after completing a course on GraphQL with React. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"Received a certification after completing a course on GraphQL with React.",
 		image: "/certificates/graphql-certificate.png",
 		imageAlt: "GraphQL With React Certification Image",
 		footerLinks: [
